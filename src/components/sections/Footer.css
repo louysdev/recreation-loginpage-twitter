@@ -16,7 +16,7 @@
   font-size: 13px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .tw-loginpage-footer {
     position: relative;
     display: flex;
