@@ -1,0 +1,17 @@
+/* Footer */
+
+.tw-loginpage-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0; /* Asegura que el footer comience desde la izquierda */
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.tw-loginpage-footer a{
+  color: gray;
+  text-decoration: none;
+  margin: 0px 10px;
+  font-size: 13px;
+}

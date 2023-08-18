@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Twitter Font";
+    src: url("https://abs.twimg.com/fonts/chirp-regular-web.woff") format("woff");
+}
+
+body{
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    font-family: Verdana, system-ui;
+    display: grid;
+    place-content: center;
+    max-width: 100%
+}
+
+@media (min-width: 600px) {
+    body {
+        min-height: 100vh;
+    }
+
+}

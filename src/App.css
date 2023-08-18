@@ -1,0 +1,83 @@
+/* Contenedores */
+.tw-loginpage {
+    display: flex;
+    width: 100vw;
+}
+
+.tw-loginpage-logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tw-loginpage-content {
+    flex: 1;
+    margin-left: 20px;
+    padding-bottom: 60px;
+}
+
+.tw-loginpage-sections {
+    max-width: 330px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Estilos independientes */
+.tw-loginpage-mainTitle {
+    margin: 0;
+    margin-bottom: 50px;
+    font-size: 60px;
+    line-height: 1.2; /* Ajusta el valor según tus necesidades */
+    max-width: 10em; /* 2 líneas con line-height de 1.2 */
+    overflow: hidden;
+}
+
+.separador-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.separador-line {
+    width: 250px;
+    background-color: #ffffff6f;
+    height: 0.5px;
+}
+
+.tw-loginpage-terms {
+    font-size: 11px;
+    color: gray;
+}
+
+.tw-text-decoration {
+    color: #09f;
+    text-decoration: none;
+}
+
+.tw-text-decoration:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+    .tw-loginpage {
+        flex-direction: column;
+    }
+    .tw-loginpage-logo {
+        width: 17%;
+        height: 30%;
+        padding: 40px 20px;
+    }
+    .tw-loginpage-content {
+        margin-left: 0px;
+        padding: 0px 20px;
+    }
+}	
+
+@media (max-width: 520px) {
+    .tw-loginpage-mainTitle {
+        font-size: 40px;
+    }
+}

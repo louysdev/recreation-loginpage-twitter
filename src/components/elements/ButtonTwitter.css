@@ -1,0 +1,33 @@
+.tw-loginpage-button {
+  font-size: 14px;
+  padding: 10px 40px;
+  font-weight: 700;
+  border-radius: 999px;
+  border: 0;
+  font-family: "Twitter Font";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.tw-loginpage-button:hover {
+  opacity: 0.9;
+  transition: 0.3s ease-in-out all; 
+}
+
+.tw-button-create {
+  background-color: #09f;
+  color: #fff;
+}
+
+.tw-button-login {
+  background-color: transparent;
+  border: 1px solid rgba(164, 201, 226, 0.393);
+  color: #09f;
+}
+
+.tw-button-login:hover {
+  background-color: rgba(29, 161, 242, 0.1);
+}
