@@ -15,3 +15,10 @@
   margin: 0px 10px;
   font-size: 13px;
 }
+
+@media (max-width: 768px) {
+  .tw-loginpage-footer {
+    position: relative;
+    padding: 10px 0;
+  }
+}
