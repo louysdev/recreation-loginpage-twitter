@@ -19,6 +19,8 @@
 @media (max-width: 768px) {
   .tw-loginpage-footer {
     position: relative;
-    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
